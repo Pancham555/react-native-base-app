@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "shop-app",
-    "slug": "shop-app",
+    "slug": "app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -24,10 +24,19 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.panchambarman.app"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6eb48f42-4765-4f03-a61c-589601f55330"
+      }
+    },
+    "plugins": [
+      "expo-font"
+    ]
   }
 }
